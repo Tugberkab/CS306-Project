@@ -13,17 +13,18 @@
     </nav>
 </div>
 
+<div class="bottomPage">
+    <form action="../functions/employee_insertion.php", method="POST">
+        Employee id:
+        <input type="text" id="eid" name="eid">
+        <br>
+        Employee salary:
+        <input type="text" id="esalary" name="esalary">
+        <br>
+        Employee name:
+        <input type="text" id="ename" name="ename">
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+</div>
 
-
-<form action="../functions/employee_insertion.php", method="POST">
-    Employee id:
-    <input type="text" id="eid" name="eid">
-    <br>
-    Employee salary:
-    <input type="text" id="esalary" name="esalary">
-    <br>
-    Employee name:
-    <input type="text" id="ename" name="ename">
-    <br>
-    <input type="submit" value="Submit">
-</form>

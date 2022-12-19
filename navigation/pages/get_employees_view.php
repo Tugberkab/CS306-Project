@@ -14,12 +14,14 @@
     </nav>
 </div>
 
-<table>    
-    <tr>
-        <th>eid</th>
-        <th>esalary</th>
-        <th>ename</th>
-    </tr>
-
-    <?php include '../functions/get_employees.php'; ?>
-</table>
+<div class="bottomPage">
+    <table>    
+        <tr>
+            <th>eid</th>
+            <th>esalary</th>
+            <th>ename</th>
+        </tr>
+    
+        <?php include '../functions/get_employees.php'; ?>
+    </table>
+</div>

@@ -1,0 +1,28 @@
+.searchBox {
+    top: 13.25%;
+    left: 40%;
+    width: 320px;
+    border: 3px solid #000;
+    border-radius: 100vh 100vh;
+    background-color: #94f8f6;
+    position: absolute;
+}
+
+.searchBox form input {
+    width: 280px;
+    height: 40px;
+    border-radius: 100vh 0 150vh 100vh;
+    border: none;
+    outline: none;
+}
+
+.searchBox form button i {
+    padding: 10px 5px;
+} 
+
+.searchBox form button {
+    border: none;
+    background-color: #94f8f6;
+    outline: none;
+    cursor: pointer;
+}

@@ -13,9 +13,11 @@
     </nav>
 </div>
 
-<form action="../functions/delete.php" method="GET">
-<select name="ids">
-<?php include '../functions/dropdown_list_employees.php' ?>
-</select>
-<button>DELETE</button>
-</form>
+<div class="bottomPage">
+    <form action="../functions/delete.php" method="GET">
+        <select name="ids">
+        <?php include '../functions/dropdown_list_employees.php' ?>
+        </select>
+        <button>DELETE</button>
+    </form>
+</div>

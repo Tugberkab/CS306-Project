@@ -1,7 +1,7 @@
 .navMenuContainer {
-  background: #ffbdc9;
+  background: #94f8f6;
   width: 100%;
-  height: 12vh;
+  height: 15vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -29,7 +29,7 @@
 
 .navMenu a::after {
   content: '';
-  background: #f44566;
+  background: #08b8c1;
   width: 100%;
   height: 100%;
   border-radius: 30px;
