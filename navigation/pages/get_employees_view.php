@@ -6,7 +6,7 @@
 <div class="navMenuContainer">
     <nav class="navMenu">
         <ul>
-            <a href="admin_view.php">Admin</a>
+            <a href="delete_view.php">Delete</a>
             <a href="employee_insertion_view.php">Employee Insertion</a>
             <a href="filter_view.php">Filter</a>
             <a href="get_employees_view.php" class="active">Get All Employees</a>
