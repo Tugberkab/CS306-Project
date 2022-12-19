@@ -17,9 +17,9 @@
 <div class="bottomPage">
     <table>    
         <tr>
-            <th>eid</th>
-            <th>esalary</th>
-            <th>ename</th>
+            <th>Employee Id</th>
+            <th>Employee Salary</th>
+            <th>Employee Name</th>
         </tr>
     
         <?php include '../functions/get_employees.php'; ?>
