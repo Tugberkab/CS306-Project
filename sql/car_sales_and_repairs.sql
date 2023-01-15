@@ -3,8 +3,8 @@ USE 'car-sales-and-repairs';
 
 CREATE TABLE 'employees' (
     'eid' int(10) NOT NULL AUTO_INCREMENT,
-	'salary' int,
-	'name' varchar(200),
+	'esalary' int,
+	'ename' varchar(200),
 	PRIMARY KEY(eid)
 )
 

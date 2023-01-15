@@ -12,7 +12,7 @@ CREATE TABLE mechanic (
 
 CREATE TABLE customer (
 	ssn VARCHAR(11),
-	name VARCHAR(50),
+	sname VARCHAR(50),
 	phone VARCHAR(20),
 	PRIMARY KEY(ssn)
 )

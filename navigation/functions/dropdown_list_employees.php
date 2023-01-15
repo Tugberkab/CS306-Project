@@ -7,6 +7,6 @@
         $eid = $eid_row['eid'];
         $esalary = $eid_row['esalary'];
         $ename = $eid_row['ename'];
-        echo "<option value=$eid>". $esalary. " - ". $ename. "</option>";
+        echo "<option value=$eid>". $eid . " - " . $ename . "</option>";
     }
 ?>

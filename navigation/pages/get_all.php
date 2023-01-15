@@ -6,10 +6,13 @@
 <div class="navMenuContainer">
     <nav class="navMenu">
         <ul>
+            <a href="home.php" class="active">Home</a>
+
             <a href="delete_view.php">Delete</a>
-            <a href="employee_insertion_view.php">Employee Insertion</a>
+            <a href="insertion_view.php">Insertion</a>
             <a href="filter_view.php">Filter</a>
-            <a href="get_employees_view.php" class="active">Get All Employees</a>
+            <a href="get_all.php" class="active">Get All</a>
+            <a href="chats.php" class="active">Contact</a>
         </ul>
     </nav>
 </div>
@@ -23,5 +26,18 @@
         </tr>
     
         <?php include '../functions/get_employees.php'; ?>
+    </table>
+
+    <br>
+    <br>
+
+    <table>    
+        <tr>
+            <th>Customer SSN</th>
+            <th>Customer Name</th>
+            <th>Customer Phone</th>
+        </tr>
+    
+        <?php include '../functions/get_customers.php'; ?>
     </table>
 </div>

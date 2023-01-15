@@ -12,7 +12,7 @@
         echo '<h2><a href="../pages/filter_view.php">Exit</a></h2>';
     } else {
         $search = trim($_POST['search']);
-        $query = $db -> prepare("SELECT * FROM employees WHERE ename like '%$search%'");
+        $query = $db -> prepare("SELECT * FROM customer WHERE cname like '%$search%'");
         $query -> execute(array());
         $control = $query -> fetchAll(PDO::FETCH_OBJ);
         $count = $query -> rowCount();
@@ -21,15 +21,15 @@
 
         <table>
             <tr>
-                <td>Employee Id</td>
-                <td>Employee Name</td>
+                <td>Customer SSN</td>
+                <td>Customer Name</td>
             </tr>
             <?php
                 foreach($control as $list) {
             ?>
                 <tr>
-                    <td><?php echo $list -> eid; ?></td>
-                    <td><?php echo $list -> ename; ?></td>
+                    <td><?php echo $list -> ssn; ?></td>
+                    <td><?php echo $list -> cname; ?></td>
                 </tr>
                 <?php } ?>
         </table>
@@ -37,7 +37,7 @@
 <?php 
         } else {
             echo '<h2>No result found';
-            echo '<h2><a href="../pages/filter_view_employees.php">Exit</a></h2>';
+            echo '<h2><a href="../pages/filter_view_customers.php">Exit</a></h2>';
         }
     }
 ?>

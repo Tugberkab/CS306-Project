@@ -1,19 +1,14 @@
 <link rel="stylesheet" href="../../styles/nav_menu.css" />
+<link rel="stylesheet" href="../../styles/table.css" />
 <link rel="stylesheet" href="../../styles/body.css" />
-<link rel="stylesheet" href="../../styles/search_box.css" />
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet" />
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
 
 <div class="navMenuContainer">
     <nav class="navMenu">
         <ul>
             <a href="home.php" class="active">Home</a>
-            
-            <a href="filter_view_employees.php">Employees</a>
-            <a href="filter_view_customers.php">Customers</a>
-            
+            <a href="../../chats/admin_chat.php" class="active">As Admin</a>
+            <a href="../../chats/client_chat.php" class="active">As User</a>
         </ul>
     </nav>
 </div>
-
-
